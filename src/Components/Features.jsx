@@ -2,7 +2,7 @@
 const Features = () => {
     return (
         <div className="">
-      <div className=" py-14 my-5 px-5 lg:px-0 lg:w-[1120px] mx-auto">
+      <div className=" pt-12 my-5 px-5 lg:px-0 lg:w-[1120px] mx-auto">
         <h2 className="text-3xl font-bold py-5">Featured Destinations</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
           

@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div
       className="bg-cover bg-center h-auto lg:h-[521px]  w-full"
-      style={{ backgroundImage: 'url("https://i.ibb.co/w7TLRdg/wings.webp")' }}
+      style={{ backgroundImage: 'url("https://i.ibb.co/VpG9SRY/Rectangle-2.png")' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 lg:pb-0 lg:py-20">
         <div className="text-center">
