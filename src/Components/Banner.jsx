@@ -77,7 +77,7 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full lg:w-[74px] h-[57px] rounded-lg flex justify-center items-center bg-[#FFB700]">
+              <div className="w-full lg:w-[74px] h-[57px] mt-5 lg:mt-0 rounded-lg flex justify-center items-center bg-[#FFB700]">
                 <IoSearch className="text-2xl w-full "/>
               </div>
             </div>

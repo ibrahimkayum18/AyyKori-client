@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="bg-[#006CE4] py-12">
-      <footer className="footer justify-between flex-wrap px-5 lg:px-0 pb-8 lg:w-[1120px] mx-auto  text-white">
+    <div className="bg-[#006CE4] py-16 mt-10 lg:mt-32">
+      <footer className="footer justify-between text-xl flex-wrap px-5 lg:px-0 pb-8 lg:w-[1120px] mx-auto  text-white">
         <nav>
           <h6 className="footer-title">Address</h6>
           <a className="link link-hover w-3/4">House- 75 Ka, Main Rd, Dhaka 1216</a>
