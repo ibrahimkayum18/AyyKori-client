@@ -9,9 +9,9 @@ const Banner = () => {
       className="bg-cover bg-center h-auto lg:h-[521px]  w-full"
       style={{ backgroundImage: 'url("https://i.ibb.co/VpG9SRY/Rectangle-2.png")' }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 lg:pb-0 lg:py-20">
-        <div className="text-center">
-          <h2 className="text-3xl py-5 lg:py-7 pl-4 lg:pl-24 text-white sm:text-4xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:pb-0 lg:py-20">
+        <div className="">
+          <h2 className="text-3xl mt-10 py-5 lg:py-7 pl-4 lg:pl-20 text-white sm:text-4xl">
             Welcome to <span className="text-[#006CE4] font-bold">AirBook</span>
           </h2>
           <div className="lg:w-[1120px] text-[#09182E] mx-auto px-5 py-12 rounded-xl bg-base-100">

@@ -8,7 +8,7 @@ const TravelBlogs = () => {
         <div className="bg-white shadow-2xl rounded-xl">
           <img
             src="https://i.ibb.co/TtvLL8S/Rectangle-18.png"
-            className=" rounded-t-xl"
+            className="w-full rounded-t-xl"
             alt=""
           />
           <div className="p-5">
@@ -42,7 +42,7 @@ const TravelBlogs = () => {
         <div className="bg-white shadow-2xl rounded-xl">
           <img
             src="https://i.ibb.co/bJBp0t1/Rectangle-18-1.png"
-            className=" rounded-t-xl"
+            className="w-full rounded-t-xl"
             alt=""
           />
           <div className="p-5">
@@ -76,7 +76,7 @@ const TravelBlogs = () => {
         <div className="bg-white shadow-2xl rounded-xl">
           <img
             src="https://i.ibb.co/8jCLgfK/Rectangle-18-2.png"
-            className=" rounded-t-xl"
+            className=" rounded-t-xl w-full"
             alt=""
           />
           <div className="p-5">

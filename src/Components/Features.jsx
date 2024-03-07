@@ -6,7 +6,7 @@ const Features = () => {
           <div className="bg-white shadow-2xl p-2 rounded-xl">
             <img
               src="https://i.ibb.co/gtjgzLR/Rectangle-181.png"
-              className=" rounded-xl"
+              className="w-full rounded-xl"
               alt=""
             />
             <h2 className="pt-5 text-left text-xl font-bold">
@@ -21,7 +21,7 @@ const Features = () => {
           <div className="bg-white shadow-2xl p-2 rounded-xl">
             <img
               src="https://i.ibb.co/xgwfvM4/Rectangle-18-11.png"
-              className=" rounded-xl"
+              className="w-full rounded-xl"
               alt=""
             />
             <h2 className="pt-5 text-left text-xl font-bold">
@@ -36,7 +36,7 @@ const Features = () => {
           <div className="bg-white shadow-2xl p-2 rounded-xl">
             <img
               src="https://i.ibb.co/P4Vv5yw/Rectangle-18-22.png"
-              className=" rounded-xl"
+              className="w-full rounded-xl"
               alt=""
             />
             <h2 className="pt-5 text-left text-xl font-bold">

@@ -1,7 +1,26 @@
+import { useEffect, useState } from "react";
+
 const Navbar = () => {
+  const [isScrolledToTop, setIsScrolledToTop] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+
+      // Set isScrolledToTop to true if user has scrolled to the top of the page
+      setIsScrolledToTop(scrollTop === 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <div>
-      <div className="navbar lg:w-[1120px] mx-auto bg-base-100 h-[84px]">
+  <div className={`bg-base-100 fixed w-[100%] bg-opacity-80 z-50`}>
+      <div className="navbar  lg:w-[1120px] mx-auto h-[84px]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

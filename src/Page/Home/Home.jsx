@@ -10,7 +10,7 @@ import TravelBlogs from "../../Components/TravelBlogs";
 
 const Home = () => {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-100 relative">
             <Navbar />
             <Banner />
             <Features />
